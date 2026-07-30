@@ -3,6 +3,7 @@ import requests
 import os
 
 api_key = os.environ.get("OWM_API_KEY")
+print(f"my_key = {api_key}")
 
 MY_LAT =  33.7490
 MY_LONG =  84.3880
