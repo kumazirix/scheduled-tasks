@@ -2,7 +2,7 @@ import requests
 # from twilio.rest import Client
 import os
 
-api_key = os.environ.get("OWN_API_KEY")
+api_key = os.environ.get("OWM_API_KEY")
 
 MY_LAT =  33.7490
 MY_LONG =  84.3880
